@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1><img src="images/icons/logo.png" alt="ebanco"></h1>
+        <a href="#">
+            <img src="images/icons/message.png" alt="">
+            <span id="notifications">2</span>
+        </a>
+    </header>
+
+    <main>
+        <h2>Goals&Wishes</h2>
+        <ul>
+            <li><button class="active" id="totalGoals">All <span>5</span></button></li>
+            <li><button id="newGoals">New <span>3</span></button></li>
+            <li><button id="richedGoals">Riched <span>2</span></button></li>
+        </ul>
+
+        <section id="goalsSection">
+            <article>
+                <h3 class="title">title</h3>
+                <h4>
+                    <span class="current">price1</span>
+                    <span class="target">price2</span>
+                </h4>
+                <div class="progressBackground">
+                    <div class="progress"></div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="images/icons/menu-home-active.png" alt="goals">
+                </a>
+            </li>
+            <li><a href="#"><img src="images/icons/menu-transaction.png" alt="transactions"></a></li>
+            <li><a href="#"><img src="images/icons/menu-card.png" alt="card"></a></li>
+            <li><a href="#"><img src="images/icons/menu-other.png" alt="exchange"></a></li>
+        </ul>
+    </footer>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
